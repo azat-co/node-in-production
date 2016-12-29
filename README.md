@@ -8,9 +8,9 @@
 
 # TOC
 
-# Section 1: Intro
+## Section 1: Intro
 
-# Section 2: Preparations
+## Section 2: Preparations
 
 1. Env Vars
 1. Packages
@@ -38,6 +38,6 @@
 
 ---
 
-# Section 5: Outro
+## Section 5: Outro
 
 1.
