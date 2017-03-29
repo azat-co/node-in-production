@@ -50,14 +50,26 @@ Azat Mardan @azat_co
 
 1. Why care and Table of Contents
 
+(This module)
+
 ---
 
 ## Module 2: Node Production Preparations
 
-1. Env Vars
-1. Packages
-1. Branches
-1. Process Manager
+1. Securing your app with environmental variables
+1. Separating development and production dependencies
+1. Locking in dependencies versions
+1. Committing, packing modules or using private registry
+1. Deployment from branches
+
+---
+
+## Module 2: Node Production Preparations (Cont)
+
+1. Consolidated logs
+1. Stateless architecture
+1. Ping endpoint
+1. Process managers
 1. CI/CD: CircleCI, Drone, TravisCI
 
 ---
