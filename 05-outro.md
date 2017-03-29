@@ -11,7 +11,7 @@ Azat Mardan @azat_co
 
 ---
 
-# React is about simplicity!
+# Containers and AWS are about robustness and flexibility.
 
 ---
 
@@ -21,10 +21,10 @@ Azat Mardan @azat_co
 
 ---
 
-## Now, go ahead and teach React to others! 🏁
+## Now, go ahead and teach Node to others! 🏁
 
 ---
 
 # Further Study
 
-* 
+*
