@@ -1,5 +1,6 @@
 footer: © NodeProgram.com, Node.University and Azat Mardan 2017
 slidenumbers: true
+theme: Merriweather, 8
 build-lists: true
 
 [.slidenumbers: false]
@@ -20,7 +21,17 @@ Azat Mardan @azat_co
 ---
 
 
-## [fit] Why Care?
+# Why Care?
+
+---
+
+## Reasons to Know Best Practices of Node in Production
+
+* Fewer bugs
+* Better security
+* Fast deployment
+* Easier maintenance
+* More cost effective
 
 ---
 
