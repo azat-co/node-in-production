@@ -1,0 +1,115 @@
+# Lab 0: Installs
+
+
+Detailed instructions and link are in labs/0-installs.md
+
+Time: 15 minutes to download and install, go! 🚀
+
+
+# Task
+
+You must have the following items:
+
+* Slides, labs and code  <https://github.com/azat-co/node-in-production>
+* Node and npm (v6 and v4)
+* Docker engine
+* AWS account
+
+
+# Walk-through
+
+If you would like to attempt the task, skip the walk-through and go for the task directly. However, if you need a little bit more hand holding or you would like to look up some of the commands or code or settings, then follow the walk-through.
+
+## 1. Slides, labs and code
+
+Open this link in your browser <https://github.com/azat-co/node-in-production> and click on the green button which says "Download".
+
+
+Alternatively, use Git clone (you can fork first too):
+
+```
+git clone https://github.com/azat-co/node-in-production.git
+```
+
+Or download with CURL and unzip (create a new folder):
+
+```
+curl  https://codeload.github.com/azat-co/node-in-production/zip/master | tar -xv
+```
+
+## 2. Node and npm
+
+
+To install Node v6, you official installer ([link](https://nodejs.org/en/download)) or nvm (recommended).
+
+To install nvm (node version manager), run this script:
+
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+```
+
+Then run one of nvm commands such as:
+
+```
+nvm install node
+```
+
+Keep in mind that after installing and/or switching between version with nvm, you might have to restart your terminal session (depends on your PATH settings).
+
+Check Node and versions with:
+
+```
+node --version
+npm --version
+```
+
+You need to have Node v6 or v8 and npm v4+.
+
+## 3. Docker engine
+
+Next, you would need to get the Docker engine (deamon). If you are a macOS user like I’m, then the easiest way is to just go to the official Docker website <https://docs.docker.com/docker-for-mac>.
+
+If you are not a macOS user, then you can select one of the options from this page: <https://docs.docker.com/engine/installation>.
+
+```
+docker run hello-world
+```
+
+If you see a message like this most likely you didn’t start Docker:
+
+```
+Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+```
+
+Start Docker. If you used macOS, you can utilize the GUI app. Otherwise, CLI.
+
+This is how running Docker daemon looks on my macOS:
+
+![](../images/docker-running.png)
+
+
+On the contrary, if you see a message like the one below, then deamon is running and you are ready to work with Docker!
+
+```
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+
+c04b14da8d14: Pull complete
+Digest: sha256:0256e8a36e2070f7bf2d0b0763dbabdd67798512411de4cdcf9431a1feb60fd9
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+...
+```
+
+## 4. AWS account
+
+
+You can easily get a free (trial) AWS account. You'll need a valid email and a credit card. Read about the free tier at <https://aws.amazon.com/free/> and when you are ready, sign up by clicking on "CREATE A FREE ACCOUNT".
+
+
+Once you are in, make sure you can access EC2 dashboard. Sometimes AWS requires a phone call or a waiting period. Most people can get an account within 10 minutes.
+
+![](../images/aws-ec2.png)
