@@ -71,6 +71,36 @@ Next, you would need to get the Docker engine (deamon). If you are a macOS user 
 
 If you are not a macOS user, then you can select one of the options from this page: <https://docs.docker.com/engine/installation>.
 
+
+To verify installation, run
+
+```
+docker version
+```
+
+It's good if you see something like this:
+
+```
+Client:
+ Version:      17.03.1-ce
+ API version:  1.27
+ Go version:   go1.7.5
+ Git commit:   c6d412e
+ Built:        Tue Mar 28 00:40:02 2017
+ OS/Arch:      darwin/amd64
+
+Server:
+ Version:      17.03.1-ce
+ API version:  1.27 (minimum version 1.12)
+ Go version:   go1.7.5
+ Git commit:   c6d412e
+ Built:        Fri Mar 24 00:00:50 2017
+ OS/Arch:      linux/amd64
+ Experimental: true
+```
+
+Next step is to verify that Docker can pull from Hub. Run this hello world image:
+
 ```
 docker run hello-world
 ```
@@ -101,6 +131,8 @@ Status: Downloaded newer image for hello-world:latest
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
+
+To generate this message, Docker took the following steps:
 ...
 ```
 
