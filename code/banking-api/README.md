@@ -26,3 +26,6 @@ docker run --rm -t --net=my-network --name banking-api -e NODE_ENV=production -e
 
 docker run --rm -t --net=my-network --name banking-api -e NODE_ENV=production -e DB_URI="mongodb://mongod-banking-api-prod-container:27017/db-prod" -p 80:3000 be327d49c00d
 ```
+
+https://blog.csainty.com/2016/07/connecting-docker-containers.html
+http://www.howtofindmyipaddress.com/
