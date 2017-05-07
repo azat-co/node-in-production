@@ -23,3 +23,55 @@ npm i express -SE
 
 
 # Troubleshooting
+
+## Create a new project folder
+
+```
+mkdir banking-api
+cd banking-api
+touch Dockerfile
+```
+
+---
+
+## Compose Dockerfile
+
+Must be exactly `Dockerfile`- no extension and starts with capitol letter D
+
+Write in banking-api/Dockerfile base image node v6 from Alpine:
+
+
+## Create app directory
+
+```
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+```
+
+---
+
+## Install app dependencies
+
+```
+COPY package.json /usr/src/app/
+RUN npm install
+```
+
+---
+
+## Bundle app source
+
+```
+COPY . /usr/src/app
+```
+
+---
+
+## Open port and start server
+
+```
+EXPOSE 3000
+CMD [ "npm", "start" ]
+```
+
+---

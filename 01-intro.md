@@ -1,6 +1,6 @@
 footer: © NodeProgram.com, Node.University and Azat Mardan 2017
 slidenumbers: true
-theme: Merriweather, 8
+theme: Simple, 1
 build-lists: true
 
 [.slidenumbers: false]
@@ -53,7 +53,7 @@ Azat Mardan @azat_co
 
 ---
 
-## What will you learn in this course
+# Table of Contents
 
 ---
 

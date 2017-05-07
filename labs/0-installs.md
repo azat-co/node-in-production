@@ -14,7 +14,7 @@ You must have the following items:
 * Node and npm (v6 and v4)
 * Docker engine
 * AWS account
-
+* AWS CLI
 
 # Walk-through
 
@@ -145,3 +145,31 @@ You can easily get a free (trial) AWS account. You'll need a valid email and a c
 Once you are in, make sure you can access EC2 dashboard. Sometimes AWS requires a phone call or a waiting period. Most people can get an account within 10 minutes.
 
 ![](../images/aws-ec2.png)
+
+
+## 5. AWS CLI
+
+
+Check for Python. Make sure you have 2.6+ or 3.6+. You can use pip (Python package manager) to install AWS CLI.
+
+```bash
+phyton --version
+pip --version
+pip install awscli
+```
+
+Python at least 2.6.5 or 3.x (recommended), see here: <http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html>. At <https://www.python.org/downloads/> you can download Python for your OS.
+
+
+## Other AWS CLI Installations
+
+* [Install the AWS CLI with Homebrew](http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html#awscli-install-osx-homebrew) - for macOS
+* [Install the AWS CLI Using the Bundled Installer (Linux, macOS, or Unix)](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-bundle.html) - just download, unzip and execute
+
+## Verify AWS CLI
+
+Run the following command to verify AWS CLI installation and its version (1+ is ok):
+
+```bash
+aws --version
+```
