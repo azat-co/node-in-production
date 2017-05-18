@@ -158,6 +158,11 @@ pip --version
 pip install awscli
 ```
 
+Install AWS CLI for EL Capitan users:
+```bash
+sudo -H pip install awscli --upgrade --ignore-installed six
+```
+
 Python at least 2.6.5 or 3.x (recommended), see here: <http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html>. At <https://www.python.org/downloads/> you can download Python for your OS.
 
 
