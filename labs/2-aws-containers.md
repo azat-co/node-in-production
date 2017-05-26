@@ -9,7 +9,6 @@ Deploy two containers using ECR and EC2 ECS.
 
 If you would like to attempt the task, then skip the walk-through and go for the task directly. However, if you need a little bit more hand holding or you would like to look up some of the commands or code or settings, then follow the walk-through.
 
-1.
 
 ## 1. Create 2 instances
 
@@ -55,7 +54,7 @@ Successfully created repository, e.g.,
 
 
 
-To install the AWS CLI and Docker and for more information on the steps below, [visit the ECR documentation page](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html).
+To install the AWS CLI and Docker, and for more information on the steps below, [visit the ECR documentation page](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html).
 
 1) Retrieve the docker login command that you can use to authenticate your Docker client to your registry:
 
@@ -91,7 +90,7 @@ docker build -t azat-main-repo .
 
 
 
-Build will ends with a similar looking output:
+Build will end with a similar looking output:
 
 ```
 Step 13/13 : CMD npm start
