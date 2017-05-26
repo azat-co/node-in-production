@@ -1,7 +1,5 @@
 # Lab 1: Dockerized Node
 
-
-
 # Task
 
 Server an HTML page from S3

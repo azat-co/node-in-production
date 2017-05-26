@@ -226,17 +226,12 @@ Hostname: mongod-banking-api-prod-container
 
 Task Definition -> banking-api-task -> Actions -> Create Service
 
-
-
-
 ![](../images/aws-ecs-15.png)
 
 
 # Everything is ready
 
 Click Clusters -> banking-api-cluster -> Container instance -> copy public IP or DNS 📝
-
-
 
 ![](../images/aws-ecs-16.png)
 
@@ -249,3 +244,6 @@ Open in browser with `/accounts`. Most likely the response will be `[]` because 
 # Static Test
 
 Navigate to http://{PUBLIC_DNS}/node-university-logo.png to see the images with Docker downloaded via `ADD`. You can fetch any data such as HTTPS certificates.
+
+
+# Terminate Service and Cluster/Instances
