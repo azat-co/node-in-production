@@ -15,16 +15,23 @@ Azat Mardan @azat_co
 
 ---
 
-# Section 1: Intro
+# Summary
 
-1.
+1. Use Env Vars
+1. Make your Dockerfile work for dev and prod to use the same image
+1. Use Docker networks or link in AWS ECS to share services for one project
 
 ---
 
-## Now, go ahead and teach Node to others! 🏁
+## Congrats! 🏁
+
+But your learning doesn't stop here.
 
 ---
 
 # Further Study
 
-*
+* [AWS Intro: Build solid foundation of main AWS concepts and services](https://node.university/p/aws-intro)
+* [AWS Intermediate: All you need to know to start DevOps with AWS](https://node.university/p/aws-intermediate)
+* Lifetime Access Pass $695 reg, $395 now only!
+
