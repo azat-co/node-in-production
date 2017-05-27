@@ -1,5 +1,7 @@
 footer: © NodeProgram.com, Node.University and Azat Mardan 2017
 slidenumbers: true
+theme: Simple, 1
+build-lists: true
 
 # Node in Production
 ## Summary and Outro
