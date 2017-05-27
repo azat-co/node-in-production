@@ -10,11 +10,11 @@ Time: 15 minutes to download and install, go! 🚀
 
 You must have the following items:
 
-* Slides, labs and code  <https://github.com/azat-co/node-in-production>
-* Node and npm (v6 and v4)
-* Docker engine
-* AWS account
-* AWS CLI
+1. Slides, labs and code  <https://github.com/azat-co/node-in-production>
+1. Node and npm (v6 and v4)
+1. Docker engine
+1. AWS account
+1. AWS CLI
 
 # Walk-through
 
@@ -161,12 +161,12 @@ pip install awscli
 Python at least 2.6.5 or 3.x (recommended), see here: <http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html>. At <https://www.python.org/downloads/> you can download Python for your OS.
 
 
-## Other AWS CLI Installations
+### Other AWS CLI Installations
 
 * [Install the AWS CLI with Homebrew](http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html#awscli-install-osx-homebrew) - for macOS
 * [Install the AWS CLI Using the Bundled Installer (Linux, macOS, or Unix)](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-bundle.html) - just download, unzip and execute
 
-## Verify AWS CLI
+### Verify AWS CLI
 
 Run the following command to verify AWS CLI installation and its version (1+ is ok):
 
