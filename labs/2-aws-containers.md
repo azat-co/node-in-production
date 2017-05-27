@@ -48,7 +48,7 @@ Successfully created repository, e.g., my URL is
 161599702702.dkr.ecr.us-west-2.amazonaws.com/azat-main-repo
 ```
 
-Next, follow instructions to upload an image (must build it before uploading/pushing). 
+Next, follow instructions to upload an image (must build it before uploading/pushing).
 
 To install the AWS CLI and Docker and for more information on the steps below, [visit the ECR documentation page](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html).
 
@@ -163,7 +163,7 @@ Let's define the first container — app.
 
 Enter the name: banking-api-container.
 
-Define the image URL (your URL will be different), e.g., 
+Define the image URL (your URL will be different), e.g.,
 
 ```
 161599702702.dkr.ecr.us-west-2.amazonaws.com/azat-main-repo:latest
@@ -249,11 +249,11 @@ Go to Create Services which is under Task Definition -> banking-api-task -> Acti
 
 ## Everything is ready
 
-Phew. Everything should be ready by now. To verify, we need to grab a public IP or public DNS. To do so, click Clusters -> banking-api-cluster -> Container instance -> copy public IP or DNS 📝
+Phew. Everything should be ready by now. To verify, we need to grab a public IP or public DNS. To do so, click Clusters -> banking-api-cluster (cluster name) -> ESC Instances (tab) and Container instance:
 
 ![](../images/aws-ecs-16.png)
 
-
+ Copy public IP or DNS 📝.
 
 ## Dynamic Test
 
