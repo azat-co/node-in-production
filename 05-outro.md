@@ -33,5 +33,5 @@ But your learning doesn't stop here.
 
 * [AWS Intro: Build solid foundation of main AWS concepts and services](https://node.university/p/aws-intro)
 * [AWS Intermediate: All you need to know to start DevOps with AWS](https://node.university/p/aws-intermediate)
-* Lifetime Access Pass $695 reg, $395 now only!
+* Lifetime Access Pass $695 reg, $395 now only! 👉 <https://node.university/p/premium-membership>
 
