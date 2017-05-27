@@ -412,3 +412,5 @@ Note: The older `--link` flag/option is deprecated. Don't use it. See <https://d
 
 * No response: Check that the port is mapped in the `docker run` command with `-p`. It's not enough to just have `EXPOSE` in Dockerfile. Developers need to have both.
 * The server hasn't updated after my code change: Make sure you mount a volume with `-v`. You don't want to do it for production though.
+* I cannot get my IP because your command is not working on my Windows, Linux, ChromOS, etc., see <http://www.howtofindmyipaddress.com>
+* I can't understand networks. I need more info on networks. See <https://blog.csainty.com/2016/07/connecting-docker-containers.html>
