@@ -25,7 +25,7 @@ Azat Mardan @azat_co
 
 ---
 
-## Reasons to Know Best Practices of Node in Production
+## Reasons to Know the Best Practices of Node in Production
 
 * Fewer bugs
 * Better security
@@ -69,7 +69,7 @@ Azat Mardan @azat_co
 
 1. Securing your app with environmental variables
 1. Separating development and production dependencies
-1. Locking in dependencies versions
+1. Locking in dependency versions
 1. Committing, packing modules or using private registry
 1. Deployment from branches
 
