@@ -40,7 +40,7 @@ curl  https://codeload.github.com/azat-co/node-in-production/zip/master | tar -x
 ## 2. Node and npm
 
 
-To install Node v6, you official installer ([link](https://nodejs.org/en/download)) or nvm (recommended).
+To install Node v6, your official installer ([link](https://nodejs.org/en/download)) or nvm (recommended).
 
 To install nvm (node version manager), run this script:
 
@@ -48,13 +48,13 @@ To install nvm (node version manager), run this script:
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 
-Then run one of nvm commands such as:
+Then run one of the nvm commands such as:
 
 ```
 nvm install node
 ```
 
-Keep in mind that after installing and/or switching between version with nvm, you might have to restart your terminal session (depends on your PATH settings).
+Keep in mind that after installing and/or switching between versions with nvm, you might have to restart your terminal session (depends on your PATH settings).
 
 Check Node and versions with:
 
@@ -67,7 +67,7 @@ You need to have Node v6 or v8 and npm v4+.
 
 ## 3. Docker engine
 
-Next, you would need to get the Docker engine (deamon). If you are a macOS user like I’m, then the easiest way is to just go to the official Docker website <https://docs.docker.com/docker-for-mac>.
+Next, you would need to get the Docker engine (deamon). If you are a macOS user like I am, then the easiest way is to just go to the official Docker website <https://docs.docker.com/docker-for-mac>.
 
 If you are not a macOS user, then you can select one of the options from this page: <https://docs.docker.com/engine/installation>.
 
@@ -105,7 +105,7 @@ Next step is to verify that Docker can pull from Hub. Run this hello world image
 docker run hello-world
 ```
 
-If you see a message like this most likely you didn’t start Docker:
+If you see a message like this, most likely you didn’t start Docker:
 
 ```
 Cannot connect to the Docker daemon. Is the docker daemon running on this host?
