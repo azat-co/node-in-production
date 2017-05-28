@@ -22,7 +22,7 @@ Firstly, you need to have the application code itself before you can containeriz
 This is what we will do now. Create a new project folder somewhere on your local computer:
 
 
-```
+```sh
 mkdir banking-api
 cd banking-api
 mkdir api
@@ -31,7 +31,7 @@ cd api
 
 Create vanilla/default package.json and install required packages as regular dependencies with exact versions:
 
-```
+```sh
 npm init -y
 npm i express@4.15.2 errorhandler@1.5.0 express@4.15.2 globalog@1.0.0 monk@4.0.0 pm2@2.4.6 -SE
 ```
@@ -119,7 +119,7 @@ The app is working and now is the time to containerize it.
 
 # 2. Creating Dockerfile
 
-Go back to banking-api and create an empty Dockerfile which must be exactly `Dockerfile`- no extension and starts with capitol letter D:
+Go back to banking-api and create an empty Dockerfile which must be exactly `Dockerfile`- no extension and starts with capital letter D:
 
 ```
 cd ..
