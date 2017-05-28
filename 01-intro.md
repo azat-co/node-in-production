@@ -69,7 +69,7 @@ Azat Mardan @azat_co
 
 1. Securing your app with environmental variables
 1. Separating development and production dependencies
-1. Locking in dependency versions
+1. Locking in versions of dependencies
 1. Committing, packing modules or using private registry
 1. Deployment from branches
 
