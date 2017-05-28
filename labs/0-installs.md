@@ -159,6 +159,7 @@ pip install awscli
 ```
 
 AWS CLI installation command for El Capitan users:
+
 ```bash
 sudo -H pip install awscli --upgrade --ignore-installed six
 ```
