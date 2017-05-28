@@ -50,7 +50,7 @@ Successfully created repository, e.g., my URL is
 
 Next, follow instructions to upload an image (must build it before uploading/pushing).
 
-To install the AWS CLI and Docker and for more information on the steps below, [visit the ECR documentation page](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html).
+To install the AWS CLI and Docker, and for more information on the steps below, [visit the ECR documentation page](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html).
 
 **Command 1:** Retrieve the docker login command that you can use to authenticate your Docker client to your registry:
 
@@ -267,4 +267,3 @@ To test the static content such as an image which was downloaded from the Intern
 # Terminate Service and Cluster/Instances
 
 Don't forget to terminate your service and instances.  You can do it from the web console.
-
