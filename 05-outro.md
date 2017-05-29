@@ -25,15 +25,52 @@ Azat Mardan @azat_co
 
 ---
 
-## Congrats! 🏁
+# AWS Certification
 
-But your learning doesn't stop here.
+* Advance your career, get a promotion
+* Validate and quantify your skills and expertise
+* Learn and master
+
+<https://aws.amazon.com/certification/>
+
+---
+
+## End of the course, but your learning doesn't stop here.
 
 ---
 
 # Further Study
 
-* [AWS Intro: Build solid foundation of main AWS concepts and services](https://node.university/p/aws-intro)
-* [AWS Intermediate: All you need to know to start DevOps with AWS](https://node.university/p/aws-intermediate)
-* Lifetime Access Pass $695 reg, $395 now only! 👉 <https://node.university/p/premium-membership>
+---
 
+# AWS Intro
+
+*Build solid foundation of main AWS concepts and services*
+
+![left 50%](images/AWS-Intro.png)
+
+* Cloud and AWS Basics: AMI, types, configuration, Launching EC2s
+* Environment and App Deploy Automation
+* Networking: Virtual Private Cloud, Subnets, Elastic IP and Load Balancer
+* S3, Auto Scaling and CloudWatch Alerts
+
+👉 <https://node.university/p/aws-intro>
+
+---
+
+# AWS Intermediate
+
+*All you need to know to start DevOps with AWS*
+
+* DevOps Principles and Building CI/CD
+* AWS CLI and AWS Node SDK
+* Cloud Infrastructure Automation with CloudFormation
+* AWS Databases,  PaaS and Containers and Serverless
+
+👉 <https://node.university/p/aws-intermediate>
+
+![right 50%](images/AWS-Intermediate.png)
+
+---
+
+## Congrats! 🏁

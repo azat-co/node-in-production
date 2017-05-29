@@ -20,18 +20,22 @@ Azat Mardan @azat_co
 
 ---
 
-
 # Why Care?
 
 ---
 
 ## Reasons to Know the Best Practices of Node in Production
 
-* Fewer bugs
-* Better security
-* Fast deployment
-* Easier maintenance
-* More cost effective
+---
+
+### Not knowing modern best practices might lead to
+
+* Increased security risks
+* Less robust and available systems
+* Slow deployment
+* Slow, error prone and costly scaling
+* Bugs
+* Higher cost for cloud and development
 
 ---
 
@@ -43,13 +47,7 @@ Azat Mardan @azat_co
 
 ---
 
-### Not knowing modern best practices might lead to
-
-* Increased security risks
-* Less robust and available systems
-* Slow deployment
-* Slow, error prone and costly scaling
-* Bugs
+## Are you convinced yet? If you are watching this course, then I hope so!
 
 ---
 
