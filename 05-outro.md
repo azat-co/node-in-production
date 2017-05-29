@@ -73,4 +73,4 @@ Azat Mardan @azat_co
 
 ---
 
-## Congrats! 🏁
+# End of the course 🔚
