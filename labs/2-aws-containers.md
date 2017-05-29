@@ -1,5 +1,4 @@
-# Lab 4: Static Website Rule!
-
+# Lab 2: AWS Containers
 
 # Task
 
