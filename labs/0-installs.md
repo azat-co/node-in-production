@@ -153,7 +153,7 @@ Once you are in, make sure you can access EC2 dashboard. Sometimes AWS requires 
 Check for Python. Make sure you have 2.6+ or 3.6+. You can use pip (Python package manager) to install AWS CLI.
 
 ```bash
-phyton --version
+python --version
 pip --version
 pip install awscli
 ```

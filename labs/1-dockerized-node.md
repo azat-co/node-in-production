@@ -95,7 +95,7 @@ http.createServer(app).listen(process.env.PORT, ()=>{
 
 The key here is that we are using two environment variables: PORT and DB_URI. We would need to provide them in Dockerfile or in command-line so the app has them set during running.
 
-Let's verify your application works without Docker by starting MondoGB and the app itself.
+Let's verify your application works without Docker by starting MongoDB and the app itself.
 
 ```
 mongod
