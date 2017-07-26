@@ -17,10 +17,10 @@ module.exports = function(req, res, next) {
       function(done) {
         exec(
           'netstat -an | grep :'
-            + server.set('port')
+            + server.get('port')
             + ' | wc -l',
           function(e, res) {
-            connections[server.set('port')] = parseInt(res,10)
+            connections[server.get('port')] = parseInt(res,10)
             done()
     } )
       },
